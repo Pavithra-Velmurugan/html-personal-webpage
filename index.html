@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal web page</title>
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  height: 100%;
+ background-image: url("/images/pavi-pic.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+  
+
+.title{
+    font-size:35px;
+    padding: 2px 10px;
+    border-style: solid;
+    border-color: rgb(28, 179, 11);
+    border-width: 5px;
+    color: white;
+}
+
+.header-container{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    /* z-index: 1000;
+    padding: 15px 20px; */
+
+}
+.overley{
+    background-color: rgba(128, 128, 128, 0.325);
+    height: 100%;
+}
+
+.personal-card{
+    margin: auto;
+    width: 50%;
+background-color: rgba(128, 128, 128, 0.601);
+display: flex;
+justify-content: center;
+gap: 50px;
+border-width: 10px;
+align-items: center;
+padding: 20px;
+height: 50vh;
+box-sizing: content-box;
+background-position: center;
+color: white;
+}
+.navlinks{
+    padding: 20px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navlinks a{
+    color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navbar{
+    color: white;
+}
+</style>
+
+</head>
+<body>
+    <div class="overley">
+    <div>
+        <section class="header">
+            <div class="header-container">
+ <div class="navbar">
+        <h1><span class="title">P</span>REFACE</h1>
+    </div>
+    <div class="navlinks">
+        <span id="home" style="color:rgb(43, 216, 24);">HOME</span>
+        <a href="/about.html" target=”_blank”>ABOUT</a>
+        <a href="/skills.html">SKILLS</a>
+        <a href="/Experience.html">EXPEIRENCE</a>
+        <a href="/portfolio.html">PORTFOLIO</a>
+        <a href="/blog.html">BLOG</a>
+        <a href="/contact.html">CONTACT</a>
+    </div>
+</div>
+</section>
+<div class="personal-card">
+    <div class="info-table">
+        <table>
+            <h4>WEB DEVELOPER</h4>
+            <hr>
+            <tr><td>NAME</td><td>PAVITHRA</td></tr>
+            <tr><td>D.O.B</td><td>14-11-1997</td></tr>
+            <tr><td>PHONE</td><td>+91 7395964293</td></tr>
+            <tr><td>ADDRESS</td><td>No:13A, 1st main road, Thendral Nagar, Hindu College,Chennai-72</td></tr>
+            <tr><td>EMAIL</td><td>Pavithravelmurugan1497@gmail.com</td></tr>
+            <tr><td>WEBSITE</td><td>https://pavithra-personal-website.netlify.app/</td></tr>
+        </table>
+    </div>
+<div class="personalimg">
+<img src="/images/pavi-pic.png" alt="pavithra-pic" width="200px">
+</div>
+</div>
+    </div>
+    </div>
+</body>
+</html>
